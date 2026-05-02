@@ -15,16 +15,26 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "prepublishOnly": "pnpm run build"
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "pnpm run build",
+    "check:prettier": "prettier --check .",
+    "check:lint": "eslint",
+    "check:ts": "tsc --noEmit",
+    "check:all": "pnpm check:prettier && pnpm check:lint && pnpm check:ts",
+    "fix:prettier": "prettier --log-level warn --write .",
+    "fix:lint": "pnpm check:lint --fix",
+    "fix:all": "pnpm fix:prettier && pnpm fix:lint"
   },
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "6.0.2"
   },
   "devDependencies": {
     "@erwanjugand/eslint-config": "2.3.0",
+    "eslint": "10.2.1",
     "eslint-config-prettier": "10.1.8",
-    "prettier": "3.8.3"
+    "jiti": "2.6.1",
+    "prettier": "3.8.3",
+    "typescript": "6.0.3"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"

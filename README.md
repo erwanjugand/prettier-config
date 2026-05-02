@@ -16,7 +16,7 @@ bun add -D @erwanjugand/prettier-config
 Create an `prettier.config.js` file and import the preset.
 
 ```js
-import config from "@erwanjugand/prettier-config";
+import { config } from '@erwanjugand/prettier-config'
 
-export default config;
+export default config
 ```
