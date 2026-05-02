@@ -1,0 +1,32 @@
+{
+  "name": "@erwanjugand/prettier-config",
+  "packageManager": "pnpm@11.0.3",
+  "version": "1.0.0",
+  "author": "Erwan Jugand <erwan.jugand@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwanjugand/prettier-config.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "pnpm run build"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "6.0.2"
+  },
+  "devDependencies": {
+    "@erwanjugand/eslint-config": "2.3.0",
+    "eslint-config-prettier": "10.1.8",
+    "prettier": "3.8.3"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
