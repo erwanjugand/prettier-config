@@ -1,6 +1,9 @@
 {
   "name": "@erwanjugand/prettier-config",
   "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=20"
+  },
   "version": "1.0.1",
   "author": "Erwan Jugand <erwan.jugand@gmail.com>",
   "license": "MIT",
