@@ -4,7 +4,7 @@
   "engines": {
     "node": ">=20"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Erwan Jugand <erwan.jugand@gmail.com>",
   "license": "MIT",
   "type": "module",

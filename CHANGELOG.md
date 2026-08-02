@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/erwanjugand/prettier-config/compare/v1.1.0...v1.1.1) (2026-08-02)
+
+### Bug Fixes
+
+* **ci:** downgrade conventional-changelog-conventionalcommits ([4c168d2](https://github.com/erwanjugand/prettier-config/commit/4c168d2c27d95a90ff2ab4e70c7f74f46e6c4eb3))
+
 ## [1.1.0](https://github.com/erwanjugand/prettier-config/compare/v1.0.1...v1.1.0) (2026-08-02)
 
 ### Chore
