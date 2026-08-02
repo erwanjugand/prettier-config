@@ -1,5 +1,14 @@
 ## [1.1.0](https://github.com/erwanjugand/prettier-config/compare/v1.0.1...v1.1.0) (2026-08-02)
 
+### Chore
+
+* **deps:** lock file maintenance ([#3](https://github.com/erwanjugand/prettier-config/issues/3)) ([06b5a87](https://github.com/erwanjugand/prettier-config/commit/06b5a87c13ebdd1b059707d065c336f1c56a562a))
+* **release:** fix changelog ([83f84df](https://github.com/erwanjugand/prettier-config/commit/83f84df0f71e753fd037c60053f5afefd9c03de9))
+
+### Features
+
+* **package:** explicite node support ([46dc5c8](https://github.com/erwanjugand/prettier-config/commit/46dc5c823cffb69b2a1818aa24210e8f121186e4))
+
 ## [1.0.1](https://github.com/erwanjugand/prettier-config/compare/v1.0.0...v1.0.1) (2026-05-09)
 
 ### Chore
