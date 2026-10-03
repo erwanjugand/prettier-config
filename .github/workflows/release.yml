@@ -26,11 +26,6 @@ jobs:
           cache: true
           require-lockfile: true
 
-      - name: Install npm >= 11.5.1
-        run: |
-          npm install -g npm@latest --prefix "$HOME/.npm-global"
-          echo "$HOME/.npm-global/bin" >> "$GITHUB_PATH"
-
       - name: Build
         run: pnpm run build
 
